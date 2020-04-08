@@ -25,7 +25,7 @@ SECRET_KEY = '@b#h51$$w1)clu@)8pr6yg4+#1tnc4fdbf5!zb&ofji=5xifp6'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['157.245.202.112']
+ALLOWED_HOSTS = ['157.245.202.112','girthking.com']
 
 
 # Application definition
@@ -54,7 +54,7 @@ ROOT_URLCONF = 'wordcount.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
